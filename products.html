@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="products.css">
+    <link rel="stylesheet" href="products.js">
+    <title>Your Watch Shop</title>
+</head>
+<body>
+
+<header>
+    <div class="logo">
+        <img src="logo.png" alt="Your Watch Shop Logo">
+    </div>
+    <h1>Watch Paradise</h1>
+    <div class="cart-container">
+        <button class="view-cart">View Cart</button>
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">&times;</span>
+                <h2>Your Cart</h2>
+                <ul class="cart-items"></ul>
+            </div>
+        </div>
+    </div>
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="Technology.html">Technology</a>
+    <a href="storelocator.html">Storelocator</a>
+    <a href="contact us.html">Contact</a>
+  </nav>
+
+<section class="products">
+    <!-- Product cards will be dynamically generated here -->
+    <div class="product-card" data-product-id="1">
+        <div class="product-image">
+            <img src="watch1.jpg" alt="Stylish Chronograph">
+        </div>
+        <div class="product-details">
+            <h2>Stylish Chronograph</h2>
+            <p class="description">Product description goes here.</p>
+            <p class="price">$199.99</p>
+            <button class="add-to-cart" data-id="1">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Repeat similar blocks for more products -->
+    <!-- Product 2 -->
+    <div class="product-card" data-product-id="2">
+        <div class="product-image">
+            <img src="watch2.jpg" alt="Elegant Gold Watch">
+        </div>
+        <div class="product-details">
+            <h2>Elegant Gold Watch</h2>
+            <p class="description">Product description goes here.</p>
+            <p class="price">$149.99</p>
+            <button class="add-to-cart" data-id="2">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card" data-product-id="3">
+        <div class="product-image">
+            <img src="watch3.jpg" alt="Sporty Diver Watch">
+        </div>
+        <div class="product-details">
+            <h2>Sporty Diver Watch</h2>
+            <p class="description">Product description goes here.</p>
+            <p class="price">$179.99</p>
+            <button class="add-to-cart" data-id="3">Add to Cart</button>
+        </div>
+    </div>
+
+    <!-- Add more products as needed -->
+</section>
+
+
+<script src="products.js"></script>
+</body>
+</html>
